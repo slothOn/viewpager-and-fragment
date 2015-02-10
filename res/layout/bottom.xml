@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout 
-        android:clickable="false"
+       
         android:id="@+id/id_tabfrd"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -33,6 +33,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <ImageButton
+            android:clickable="false"
             android:id="@+id/id_tabfrdimg"
             android:src="@drawable/tab_find_frd_normal"
             android:layout_width="wrap_content"
@@ -45,7 +46,7 @@
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout 
-        android:clickable="false"
+        
         android:id="@+id/id_tabaddress"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -53,6 +54,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <ImageButton
+            android:clickable="false"
             android:id="@+id/id_tabaddressimg"
             android:src="@drawable/tab_address_normal"
             android:layout_width="wrap_content"
@@ -65,7 +67,7 @@
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <LinearLayout 
-        android:clickable="false"
+        
         android:id="@+id/id_tabsettings"
         android:layout_width="0dp"
         android:layout_height="match_parent"
@@ -73,6 +75,7 @@
         android:gravity="center"
         android:orientation="vertical">
         <ImageButton
+            android:clickable="false"
             android:id="@+id/id_tabsettingsimg"
             android:src="@drawable/tab_settings_normal"
             android:layout_width="wrap_content"
